@@ -1,6 +1,6 @@
 /*
 A:键盘输入两个数据，返回两个数中的较大值
-B:键盘输入两个数据，返回两个数中的较大值
+B:键盘输入两个数据，比较两个数是否相等
  */
 import java.util.Scanner;
 public class Test13 {
@@ -12,6 +12,12 @@ public class Test13 {
         int y=sc.nextInt();
         int max=maxget(x,y);
         System.out.println(max);
+        int ggs=ggf(x,y);
+        if(ggs==0) {
+            System.out.println("不相等");
+        }
+        else
+            System.out.println("相等");
     }
     /*
     返回连个整数的较大值
@@ -20,6 +26,18 @@ public class Test13 {
      */
     public static int maxget(int a,int b) {
         return a>b? a : b;
+    }
+    /*
+    判断是否相等
+
+     */
+    public static int ggf(int a,int b) {
+        if(a==b) {
+            return 1;
+        }
+        else
+            return 0;
+
     }
 
 
