@@ -12,6 +12,7 @@ public class shuzu8 {
        //  arr.length代表数组的长度
         System.out.println(arr.length);
          int[] arr2={3,4,5};
+         print(arr2);
          /*
          数组的遍历
          1.返回值类型void
@@ -21,9 +22,9 @@ public class shuzu8 {
 
 
         }
-        public static void print(int arr2[]) {
-        for(int i=0;i<arr2.length;i++) {
-            System.out.println(arr2[i]);
+        public static void print(int arr[]) {
+        for(int i=0;i<arr.length;i++) {
+            System.out.println(arr[i]);
 
         }
 
