@@ -1,6 +1,15 @@
 public class duixiang2 {
     public static void main(String[] args) {
-
+        //创建对象
+        phone p=new phone();
+        //调用对象的属性并赋值
+        p.brand="锤子";
+        p.price=998;
+        System.out.println(p.brand+"..."+p.price);
+        //调用成员方法
+        p.call();
+        p.playGame();
+        p.sondMessage();
     }
 }
 /*
