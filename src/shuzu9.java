@@ -17,7 +17,7 @@ public class shuzu9 {
      */
     public static int getmax(int[] arr2) {
         int max=arr2[0];
-        for (int i=0;i<=arr2.length;i++) {
+        for (int i=0;i<=arr2.length-1;i++) {
             if (arr2[i]<max) {
                 arr2[i]=max;
             }
