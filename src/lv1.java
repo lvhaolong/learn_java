@@ -4,12 +4,12 @@ public class lv1   {
 
     }
 }
-class person {
+class person1 {
     private String name;
     private int age;
 
     //构造方法
-    public person() {
+     {
 
     }
 }

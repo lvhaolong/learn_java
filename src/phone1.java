@@ -1,14 +1,5 @@
-public class class2 {
-    public static void main(String[] args) {
-        phone1 p1=new phone1();
-        p1.setBrand("三星");
-        p1.setPrice(5288);
-        System.out.println(p1.getBrand()+"..."p1.getPrice());
-        p1.call();
-        p1.sendmessage();
-        p1.playGame();
-    }
-}
+
+
 
 class phone1 {
     private String brand;
@@ -38,8 +29,16 @@ class phone1 {
     public void playGame() {
         System.out.println("打游戏");
     }
+    public class class2 {
+        public void main(String[] args) {
+            phone1 p1=new phone1();
+            p1.setBrand("三星");
+            p1.setPrice(5288);
+            System.out.println(p1.getBrand()+"..."+p1.getPrice());
+            p1.call();
+            p1.sendmessage();
+            p1.playGame();
+        }
+    }
+
 }
-}
-
-
-
